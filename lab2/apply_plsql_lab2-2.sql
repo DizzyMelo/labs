@@ -1,7 +1,7 @@
 -- This is a sample file, and you should display a multiple-line comment
 -- identifying the file, author, and date. Here's the format:
 /*
-   Name:   rerunnable1.sql
+   Name:   apply_plsql_lab2-2.sql
    Author: Daniel Melo
    Date:   30-APR-2020
 */
@@ -13,7 +13,7 @@
 
 
 -- Open your log file and make sure the extension is ".txt".
-SPOOL rerunnable.txt
+SPOOL apply_plsql_lab2-2.txt
 
 -- Add an environment command to allow PL/SQL to print to console.
 SET SERVEROUTPUT ON SIZE UNLIMITED
