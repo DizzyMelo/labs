@@ -45,3 +45,12 @@ EXCEPTION	WHEN OTHERS THEN
 
 END;
 /
+
+-- Close your log file.
+SPOOL OFF
+
+-- Instruct the program to exit SQL*Plus, which you need when you call a
+-- a program from the command line. Please make sure you comment the
+-- following command when you want to remain inside the interactive
+-- SQL*Plus connection.
+QUIT;
